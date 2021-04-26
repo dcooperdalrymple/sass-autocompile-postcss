@@ -1,0 +1,42 @@
+{
+    "context-menu": {
+        "atom-text-editor": [
+            {
+                "label": "Toggle sass-autocompile-postcss",
+                "command": "sass-autocompile-postcss:toggle"
+            },
+            {
+                "label": "Enable sass-autocompile-postcss",
+                "command": "sass-autocompile-postcss:enable"
+            },
+            {
+                "label": "Disable sass-autocompile-postcss",
+                "command": "sass-autocompile-postcss:disable"
+            }
+        ]
+    },
+    "menu": [
+        {
+            "label": "Packages",
+            "submenu": [
+                {
+                    "label": "sass-autocompile-postcss",
+                    "submenu": [
+                        {
+                            "label": "Toggle",
+                            "command": "sass-autocompile-postcss:toggle"
+                        },
+                        {
+                            "label": "Enable",
+                            "command": "sass-autocompile-postcss:enable"
+                        },
+                        {
+                            "label": "Disable",
+                            "command": "sass-autocompile-postcss:disable"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
