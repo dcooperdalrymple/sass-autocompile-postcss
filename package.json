@@ -10,7 +10,8 @@
         "atom": ">=1.0.0 <2.0.0"
     },
     "dependencies": {
-        "atom-package-dependencies": "latest"
+        "atom-package-dependencies": "latest",
+        "autoprefixer": "^10.2.5"
     },
     "package-dependencies": {
         "sass-autocompile": "latest"
