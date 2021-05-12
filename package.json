@@ -1,8 +1,8 @@
 {
     "name": "sass-autocompile-postcss",
     "main": "./lib/sass-autocompile-postcss",
-    "version": "0.1.0",
-    "description": "A short description of your package",
+    "version": "0.0.0",
+    "description": "Adds PostCSS prefixing processing to css files compiled by the `sass-autocompile` package.",
     "keywords": [],
     "repository": "https://github.com/dcooperdalrymple/sass-autocompile-postcss",
     "license": "GPL-3.0",
